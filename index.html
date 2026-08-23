@@ -10,6 +10,8 @@
 </head>
 <body>
 
+<div class="scroll-progress"><div class="scroll-progress-bar"></div></div>
+
 <header class="site">
   <nav class="nav">
     <a href="index.html" class="brand">Mukesh Kumar<span class="dot">.</span></a>
@@ -29,22 +31,39 @@
 <section class="hero">
   <div class="container">
     <div>
-      <span class="hero-tag">Open to new opportunities</span>
+      <span class="hero-tag"><span class="status-dot"></span> Open to new opportunities</span>
       <h1>Hi, I'm <span>Mukesh Kumar</span></h1>
       <div class="role">Android &amp; Web Developer</div>
-      <p class="lead">I build Android &amp; React Native apps that ship to real users on Google Play, and end-to-end web platforms — PHP/MySQL backend, REST APIs, live payments — from database to UI.</p>
+      <div class="typed-line"><span class="prompt">&gt;</span> I build <span class="typed-text"></span><span class="type-cursor"></span></div>
+      <p class="lead">Android &amp; React Native apps that ship to real users on Google Play, and end-to-end web platforms — PHP/MySQL backend, REST APIs, live payments — from database to UI.</p>
       <div class="hero-actions">
         <a href="projects.html" class="btn btn-primary">View Projects</a>
         <a href="assets/Mukesh_Kumar_Resume.pdf" class="btn btn-ghost" target="_blank" rel="noopener">Download Resume</a>
         <a href="contact.html" class="btn btn-ghost">Get in Touch</a>
       </div>
+      <div class="hero-meta">
+        <span class="meta-pill">🏢 Green Mounts Ventures</span>
+        <span class="meta-pill">📍 Delhi, India</span>
+        <span class="meta-pill">🔗 @mukeshkumar356</span>
+      </div>
     </div>
-    <div class="hero-card">
-      <div class="hc-row"><span>Currently at</span><b>Green Mounts Ventures</b></div>
-      <div class="hc-row"><span>Role</span><b>Web &amp; Android Developer</b></div>
-      <div class="hc-row"><span>Based in</span><b>Delhi, India</b></div>
-      <div class="hc-row"><span>Stack</span><b>RN · Java · PHP/MySQL</b></div>
-      <div class="hc-row"><span>GitHub</span><b>@mukeshkumar356</b></div>
+    <div class="hero-visual">
+      <div class="code-panel">
+        <div class="cp-bar">
+          <span class="cp-dot r"></span><span class="cp-dot y"></span><span class="cp-dot g"></span>
+          <span class="cp-file">mukesh.js</span>
+        </div>
+        <pre class="cp-code"><code><span class="tok-key">const</span> <span class="tok-var">developer</span> <span class="tok-punc">=</span> <span class="tok-punc">{</span>
+  <span class="tok-prop">name</span><span class="tok-punc">:</span> <span class="tok-str">'Mukesh Kumar'</span><span class="tok-punc">,</span>
+  <span class="tok-prop">role</span><span class="tok-punc">:</span> <span class="tok-str">'Android &amp; Web Dev'</span><span class="tok-punc">,</span>
+  <span class="tok-prop">stack</span><span class="tok-punc">:</span> <span class="tok-punc">[</span><span class="tok-str">'Kotlin'</span><span class="tok-punc">,</span> <span class="tok-str">'RN'</span><span class="tok-punc">,</span> <span class="tok-str">'PHP'</span><span class="tok-punc">]</span><span class="tok-punc">,</span>
+  <span class="tok-prop">shipsTo</span><span class="tok-punc">:</span> <span class="tok-str">'production'</span><span class="tok-punc">,</span>
+  <span class="tok-prop">status</span><span class="tok-punc">:</span> <span class="tok-str">'open_to_work'</span>
+<span class="tok-punc">}</span><span class="cp-cursor"></span></code></pre>
+      </div>
+      <div class="photo-frame">
+        <img src="assets/img/profile.jpg" alt="Mukesh Kumar">
+      </div>
     </div>
   </div>
 </section>
@@ -151,26 +170,37 @@
       <span class="eyebrow">Toolbox</span>
       <h2>Technologies I work with</h2>
     </div>
-    <div class="skill-groups">
-      <div class="skill-card reveal">
-        <h4>Languages</h4>
-        <div class="chip-row">
-          <span class="chip">Kotlin</span><span class="chip">Java</span><span class="chip">TypeScript</span>
-          <span class="chip">PHP</span><span class="chip">JavaScript</span>
+    <div class="tech-strip reveal">
+      <div class="tech-item"><img src="https://skillicons.dev/icons?i=kotlin" alt="Kotlin" loading="lazy"><span>Kotlin</span></div>
+      <div class="tech-item"><img src="https://skillicons.dev/icons?i=java" alt="Java" loading="lazy"><span>Java</span></div>
+      <div class="tech-item"><img src="https://skillicons.dev/icons?i=ts" alt="TypeScript" loading="lazy"><span>TypeScript</span></div>
+      <div class="tech-item"><img src="https://skillicons.dev/icons?i=react" alt="React Native" loading="lazy"><span>React Native</span></div>
+      <div class="tech-item"><img src="https://skillicons.dev/icons?i=androidstudio" alt="Android Studio" loading="lazy"><span>Android</span></div>
+      <div class="tech-item"><img src="https://skillicons.dev/icons?i=php" alt="PHP" loading="lazy"><span>PHP</span></div>
+      <div class="tech-item"><img src="https://skillicons.dev/icons?i=mysql" alt="MySQL" loading="lazy"><span>MySQL</span></div>
+      <div class="tech-item"><img src="https://skillicons.dev/icons?i=firebase" alt="Firebase" loading="lazy"><span>Firebase</span></div>
+      <div class="tech-item"><img src="https://skillicons.dev/icons?i=git,github" alt="Git & GitHub" loading="lazy"><span>Git/GitHub</span></div>
+    </div>
+    <div style="margin-top:36px;">
+      <div class="skill-groups">
+        <div class="skill-card reveal">
+          <h4>Web &amp; Integrations</h4>
+          <div class="chip-row">
+            <span class="chip">REST APIs</span><span class="chip">Razorpay</span>
+            <span class="chip">CCAvenue</span><span class="chip">Shiprocket</span><span class="chip">Bootstrap</span>
+          </div>
         </div>
-      </div>
-      <div class="skill-card reveal">
-        <h4>Android &amp; Cross-Platform</h4>
-        <div class="chip-row">
-          <span class="chip">Android Studio</span><span class="chip">React Native</span>
-          <span class="chip">MVVM</span><span class="chip">Material Design</span>
+        <div class="skill-card reveal">
+          <h4>Architecture</h4>
+          <div class="chip-row">
+            <span class="chip">MVVM</span><span class="chip">MVC</span><span class="chip">Material Design</span>
+          </div>
         </div>
-      </div>
-      <div class="skill-card reveal">
-        <h4>Web &amp; Integrations</h4>
-        <div class="chip-row">
-          <span class="chip">MySQL</span><span class="chip">REST APIs</span>
-          <span class="chip">Razorpay</span><span class="chip">CCAvenue</span><span class="chip">Shiprocket</span>
+        <div class="skill-card reveal">
+          <h4>Tools</h4>
+          <div class="chip-row">
+            <span class="chip">Postman</span><span class="chip">ADB</span><span class="chip">Logcat</span><span class="chip">Room DB</span>
+          </div>
         </div>
       </div>
     </div>
