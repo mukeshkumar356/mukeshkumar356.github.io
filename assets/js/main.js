@@ -119,4 +119,12 @@ document.addEventListener('DOMContentLoaded', function () {
   // Footer year
   var yearEl = document.getElementById('year');
   if (yearEl) yearEl.textContent = '2026';
+
+  // Back to top
+  var backToTop = document.getElementById('backToTop');
+  if (backToTop) {
+    backToTop.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
 });
